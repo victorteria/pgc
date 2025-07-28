@@ -1,0 +1,351 @@
+* {
+    margin: 0px;
+    /* overflow-x: hidden; */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 280px;
+    background-color: white;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div {
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+input{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    outline: none;
+    border-width: 0px;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+.button{
+    height: 50px;
+    width: 200px;
+    margin-top: 30px;
+    border-width: 0px;
+    font-weight: bolder;
+    background-color: gray;
+    border-radius: 20px;
+}
+.login{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80vh;
+    margin-top: 50px;
+    align-items: center;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.h12 {
+    font-size: 100px;
+    position: absolute;
+    display: flex;
+    margin-left: 50px;
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav button {
+    height: 40px;
+    width: 150px;
+    border-width: 0px;
+    background-color: pink;
+    color: black;
+    border-radius: 10px;
+}
+
+.hero_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/IMG-20250725-WA0048.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    gap: 5%;
+}
+
+.hero_section_blur {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), transparent);
+
+
+}
+
+.student-pics {
+    height: 500px;
+    width: 50%;
+    /* background-color:rgba(255, 255, 255, 0.274); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.student-pics h1 {
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    align-items: center;
+    background-color: pink;
+}
+
+.nav1 ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.p1 {
+    font-family: cursive;
+}
+
+.p2 {
+    font-family: sans-serif;
+
+}
+
+.hero_section_text {
+    height: 500px;
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 70vh;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 26rem;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    overflow-x: hidden;
+    /* background-color: blue; */
+    margin-top: 70px;
+
+
+}
+
+.cards {
+    height: 90%;
+    width: 100%;
+    background-color: rgb(225, 160, 171);
+
+}
+
+.hero_section_text button {
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    outline: none;
+    border: 10;
+    color: black;
+    font-size: 15px;
+    border-color: white;
+    background-color: white;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    /* background-color: red; */
+    /* margin-top: 50px; */
+    height: 500px;
+    background: url(/IMG-20250725-WA0109.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    border-radius: 20px;
+    /* z-index: -1; */
+
+}
+
+.p2 {
+    text-align: center;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.473);
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    color: black;
+    font-size: 25px;
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.line {
+    display: flex;
+    width: 70px;
+    height: 2px;
+    background-color: grey;
+}
+
+.section2_div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.h1_span {
+    color: pink;
+}
+
+.parent_comment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    height: 400px;
+    width: 100%;
+    gap: 3%;
+}
+
+.parent_cards {
+    width: 27%;
+    height: 100%;
+    background-color: pink;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: grey;
+    gap: 10px;
+}
+.location{
+    width: 800px;
+    height: 100px;
+    
+}
+.email_side{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 30px;
+    
+}
+.email_side_input{
+    height: 40px;
+    width: 280px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.input_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+}
+.email_button{
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    border: 0;
+    background-color: pink;
+    font-size: 10px;
+}
+.imgs_div{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.gallery_img{
+    width: 60%;
+    height: 60vh;
+    border-radius: 30px;
+}
+.divb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.logos{
+    height: 50px;
+}
+.sec{
+    background-color: whitesmoke;
+}
+/* @keyframes animate {
+    from {
+        translate: 0px;
+    }
+
+    to {
+        translate: calc(-5 * 16rem);
+
+    }
+} */
